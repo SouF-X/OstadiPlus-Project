@@ -1,0 +1,3 @@
+# Use Clean Architecture inside the modular monolith
+
+On 2026-10-31, after discussing a conventional layered design and Clean Architecture, the developer explicitly selected Clean Architecture for Ostadi Plus and subsequently accepted the four-project responsibility/reference rules and selective-interface policy. Apply it within the PRD's ASP.NET Core modular monolith, with dependencies toward the business core and abstractions justified by actual capabilities rather than paired interfaces for every class. The [resolved architecture ticket](../../.scratch/ostadi-engineering/issues/01-n-tier-responsibilities.md#answer) records the concrete rules; business-module layout, database choice, deployment, and additional implementation patterns remain separate decisions.
